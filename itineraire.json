@@ -1,0 +1,587 @@
+{
+  "pays": "Îles Féroé",
+  "drapeau": "🇫🇴",
+  "symbole": "🐑",
+  "titre": "L'Archipel Mystique : 20 Jours au Cœur des Féroé",
+  "budget_total": "6150€",
+  "duree": "20 jours",
+  "temps_vol": "15h avec escale depuis Hartford, etats unis",
+  "jours": [
+    {
+      "jour": 1,
+      "symbole": "🛬",
+      "titre": "Arrivée et Premiers Pas à Tórshavn",
+      "legende": "Après un long voyage, l'arrivée à Vágar offre déjà un aperçu de la beauté brute des Féroé. Prenez le temps de vous installer dans la capitale, Tórshavn, et de vous imprégner de son atmosphère paisible. Une balade légère est idéale pour commencer à découvrir cette ville unique, la plus petite capitale du monde.",
+      "lieu": "Tórshavn, Streymoy",
+      "activites": [
+        "🛬 <strong>Arrivée à l'aéroport de Vágar (FAE)</strong>: Récupérez votre voiture de location, essentielle pour explorer l'archipel, et prenez la route panoramique vers Tórshavn, la capitale des Féroé.",
+        "🛏️ <strong>Installation à l'hôtel</strong>: Prenez le temps de vous enregistrer et de vous rafraîchir après le vol. Votre hébergement sera votre base pour les premiers jours d'exploration.",
+        "🚶‍♂️ <strong>Balade dans le quartier historique de Tinganes</strong>: Promenez-vous parmi les maisons en bois aux toits de tourbe de Tinganes, le siège du gouvernement féringien depuis des siècles, et ressentez l'histoire vibrante de ce lieu."
+      ],
+      "illustration": "jour1.jpg",
+      "encarts": [
+        {
+          "symbole": "🚗",
+          "titre": "Location de voiture",
+          "texte": "La voiture est indispensable pour explorer les Féroé. Réservez-la bien à l'avance, surtout en haute saison."
+        },
+        {
+          "symbole": "💡",
+          "titre": "Conseil d'arrivée",
+          "texte": "Le trajet de l'aéroport à Tórshavn dure environ 45 minutes. Profitez des paysages dès le début."
+        }
+      ]
+    },
+    {
+      "jour": 2,
+      "symbole": "🏛️",
+      "titre": "Immersion Culturelle et Historique",
+      "legende": "Plongez au cœur de l'histoire et de la culture féringienne en explorant les sites emblématiques autour de Tórshavn. De l'ancienne ferme de Kirkjubøur aux musées de la capitale, chaque lieu raconte une histoire fascinante de résilience et de tradition. Laissez-vous transporter par le passé de ces îles isolées.",
+      "lieu": "Tórshavn et Kirkjubøur, Streymoy",
+      "activites": [
+        "⛪ <strong>Visite de Kirkjubøur</strong>: Explorez ce village historique, l'un des plus importants des Féroé, abritant la cathédrale inachevée de Magnus, l'église Saint-Olav et la plus ancienne ferme en bois habitée du monde, la Roykstovan.",
+        "🖼️ <strong>Musée National des Féroé (Føroya Fornminnissavn)</strong>: Découvrez l'histoire naturelle et culturelle de l'archipel, des Vikings à nos jours, à travers des expositions riches et variées.",
+        "🚶‍♀️ <strong>Exploration du centre de Tórshavn</strong>: Flânez dans les rues colorées, visitez la cathédrale de Tórshavn et profitez de l'ambiance décontractée de la capitale."
+      ],
+      "illustration": "jour2.jpg",
+      "encarts": [
+        {
+          "symbole": "🚌",
+          "titre": "Transport local",
+          "texte": "Des bus locaux relient Tórshavn à Kirkjubøur, une option si vous souhaitez laisser la voiture au repos."
+        },
+        {
+          "symbole": "🍽️",
+          "titre": "Pause gourmande",
+          "texte": "Goûtez aux spécialités locales comme le poisson séché ou le ræst (viande fermentée) dans un restaurant de Tórshavn."
+        }
+      ]
+    },
+    {
+      "jour": 3,
+      "symbole": "🏞️",
+      "titre": "Beauté Sauvage du Nord de Streymoy",
+      "legende": "Aujourd'hui, l'aventure vous mène vers le nord de Streymoy, où des paysages à couper le souffle vous attendent. Des villages pittoresques nichés dans des vallées verdoyantes aux falaises abruptes balayées par le vent, chaque virage révèle une nouvelle merveille naturelle. Préparez-vous à être émerveillé par la puissance et la sérénité des Féroé.",
+      "lieu": "Saksun et Tjørnuvík, Streymoy",
+      "activites": [
+        "🏡 <strong>Découverte de Saksun</strong>: Visitez ce village idyllique, célèbre pour ses maisons aux toits de tourbe et son lagon entouré de montagnes. La vue est absolument spectaculaire et photogénique.",
+        "🌊 <strong>Exploration de Tjørnuvík</strong>: Admirez les impressionnants stacks marins 'Risin og Kellingin' (le Géant et la Vieille Femme) depuis la plage de sable noir de ce charmant village, le plus septentrional de Streymoy."
+      ],
+      "illustration": "jour3.jpg",
+      "encarts": [
+        {
+          "symbole": "🥾",
+          "titre": "Randonnée à Saksun",
+          "texte": "À marée basse, il est possible de marcher le long du lagon jusqu'à l'océan, une expérience unique."
+        },
+        {
+          "symbole": "☕",
+          "titre": "Pause café",
+          "texte": "À Tjørnuvík, un petit café local propose des gaufres et du café avec une vue imprenable sur les stacks."
+        }
+      ]
+    },
+    {
+      "jour": 4,
+      "symbole": "🐦",
+      "titre": "Falaises et Oiseaux Marins",
+      "legende": "Embarquez pour une expérience inoubliable le long des falaises de Vestmanna, où des milliers d'oiseaux marins nichent dans des paysages dramatiques. La navigation entre les grottes et les stacks offre une perspective unique sur la géologie et la faune des Féroé. C'est une immersion totale dans la nature sauvage de l'archipel.",
+      "lieu": "Vestmanna, Streymoy",
+      "activites": [
+        "🚢 <strong>Excursion en bateau aux falaises de Vestmanna</strong>: Naviguez entre les falaises vertigineuses et pénétrez dans des grottes marines, observant des colonies de macareux, guillemots et autres oiseaux marins dans leur habitat naturel. C'est une expérience majestueuse.",
+        "🚶‍♂️ <strong>Promenade dans Vestmanna</strong>: Après l'excursion, explorez le petit port de Vestmanna et son musée des Vikings, qui retrace l'histoire des premiers colons de l'île."
+      ],
+      "illustration": "jour4.jpg",
+      "encarts": [
+        {
+          "symbole": "🧥",
+          "titre": "Équipement",
+          "texte": "Prévoyez des vêtements chauds et imperméables pour l'excursion en bateau, même en été, car le vent peut être frais."
+        },
+        {
+          "symbole": "📸",
+          "titre": "Photographie",
+          "texte": "N'oubliez pas votre appareil photo pour immortaliser les oiseaux et les paysages grandioses."
+        }
+      ]
+    },
+    {
+      "jour": 5,
+      "symbole": "⛰️",
+      "titre": "Randonnée et Panoramas Époustouflants",
+      "legende": "Aujourd'hui est dédié à la randonnée et à la découverte de panoramas à couper le souffle. Les Féroé sont un paradis pour les marcheurs, et les sentiers offrent des vues imprenables sur les fjords et les îles environnantes. Préparez vos chaussures de marche et votre appareil photo pour une journée d'exploration active et de beauté naturelle.",
+      "lieu": "Mont Sornfelli et Kvivik, Streymoy",
+      "activites": [
+        "⛰️ <strong>Randonnée au Mont Sornfelli</strong>: Montez jusqu'au sommet du Mont Sornfelli pour une vue panoramique à 360 degrés sur une grande partie de l'archipel, un spectacle inoubliable par temps clair.",
+        "🚶‍♀️ <strong>Visite de Kvivik</strong>: Explorez ce petit village côtier, l'un des plus anciens des Féroé, et découvrez les vestiges d'anciennes maisons vikings, témoins d'un passé lointain."
+      ],
+      "illustration": "jour5.jpg",
+      "encarts": [
+        {
+          "symbole": "🥾",
+          "titre": "Chaussures de randonnée",
+          "texte": "Des chaussures de randonnée robustes et imperméables sont essentielles pour les sentiers féringiens, souvent humides."
+        },
+        {
+          "symbole": "🗺️",
+          "titre": "Cartes et GPS",
+          "texte": "Téléchargez des cartes hors ligne ou utilisez une application GPS pour la randonnée, car le réseau peut être limité."
+        }
+      ]
+    },
+    {
+      "jour": 6,
+      "symbole": "🌉",
+      "titre": "Passage à Eysturoy et Charme de Gjógv",
+      "legende": "Traversez le pont qui relie Streymoy à Eysturoy, une transition vers de nouveaux paysages et de nouveaux villages. Gjógv, avec son port naturel unique et ses maisons colorées, est une véritable carte postale des Féroé. Prenez le temps de vous imprégner de l'atmosphère sereine de ce lieu magique.",
+      "lieu": "Gjógv, Eysturoy",
+      "activites": [
+        "🌉 <strong>Traversée du pont entre Streymoy et Eysturoy</strong>: Profitez du court trajet et des vues sur les fjords en vous dirigeant vers la deuxième plus grande île de l'archipel.",
+        "🏡 <strong>Découverte de Gjógv</strong>: Explorez ce village pittoresque, célèbre pour son port naturel en forme de gorge et ses maisons traditionnelles. C'est un lieu d'une beauté exceptionnelle et d'une tranquillité apaisante.",
+        "🚶‍♀️ <strong>Promenade le long de la gorge</strong>: Descendez les escaliers jusqu'au fond de la gorge pour admirer le port et les falaises de près, un endroit parfait pour observer les oiseaux marins."
+      ],
+      "illustration": "jour6.jpg",
+      "encarts": [
+        {
+          "symbole": "🛌",
+          "titre": "Hébergement à Gjógv",
+          "texte": "Le Guesthouse Gjáargarður offre une expérience authentique avec des vues magnifiques sur le village et la mer."
+        },
+        {
+          "symbole": "🍽️",
+          "titre": "Cuisine locale",
+          "texte": "Le restaurant du Guesthouse Gjáargarður est réputé pour ses plats traditionnels féringiens."
+        }
+      ]
+    },
+    {
+      "jour": 7,
+      "symbole": "🏔️",
+      "titre": "Ascension et Vues Panoramiques",
+      "legende": "Aujourd'hui, l'aventure vous mène au sommet de Slættaratindur, le point culminant des Féroé. La randonnée est exigeante mais la récompense est une vue imprenable sur l'ensemble de l'archipel par temps clair. C'est une expérience mémorable qui offre une perspective unique sur la géographie des îles.",
+      "lieu": "Slættaratindur et Eiði, Eysturoy",
+      "activites": [
+        "⛰️ <strong>Ascension de Slættaratindur</strong>: Partez pour une randonnée jusqu'au sommet de la plus haute montagne des Féroé (880m). La vue à 360 degrés sur les îles environnantes est absolument spectaculaire et vaut chaque effort.",
+        "⚽ <strong>Visite d'Eiði</strong>: Explorez ce village charmant, connu pour son terrain de football situé au bord de l'océan, offrant un cadre unique et des vues magnifiques sur les falaises."
+      ],
+      "illustration": "jour7.jpg",
+      "encarts": [
+        {
+          "symbole": "☀️",
+          "titre": "Météo",
+          "texte": "Vérifiez la météo avant d'entreprendre l'ascension de Slættaratindur. Le temps peut changer rapidement."
+        },
+        {
+          "symbole": "🥾",
+          "titre": "Préparation",
+          "texte": "Prévoyez de l'eau, des snacks et des couches de vêtements pour cette randonnée, même en été."
+        }
+      ]
+    },
+    {
+      "jour": 8,
+      "symbole": "🌊",
+      "titre": "Funningur et Côte Sauvage",
+      "legende": "Continuez votre exploration d'Eysturoy en découvrant le pittoresque village de Funningur, niché au fond d'un fjord. La journée se poursuit le long de la côte sauvage, offrant des vues imprenables sur l'océan Atlantique et les falaises sculptées par les éléments. C'est une journée de contemplation et de connexion avec la nature brute des Féroé.",
+      "lieu": "Funningur et Gjogv, Eysturoy",
+      "activites": [
+        "🏡 <strong>Découverte de Funningur</strong>: Visitez ce village isolé, l'un des plus anciens des Féroé, réputé pour son église en bois traditionnelle et son cadre paisible au bord du fjord.",
+        "🚗 <strong>Route panoramique le long de la côte est d'Eysturoy</strong>: Conduisez sur les routes sinueuses offrant des vues spectaculaires sur l'océan, les falaises et les petits hameaux isolés. Arrêtez-vous souvent pour admirer le paysage.",
+        "🚶‍♀️ <strong>Randonnée facile autour de Gjógv</strong>: Profitez d'une dernière balade autour de Gjógv, peut-être vers les falaises au nord du village, pour des vues différentes sur la gorge et la mer."
+      ],
+      "illustration": "jour8.jpg",
+      "encarts": [
+        {
+          "symbole": "🐑",
+          "titre": "Faune locale",
+          "texte": "Soyez attentif aux moutons qui paissent librement sur les routes. Conduisez prudemment."
+        },
+        {
+          "symbole": "📸",
+          "titre": "Points de vue",
+          "texte": "De nombreux points de vue aménagés le long de la route offrent des opportunités de photos incroyables."
+        }
+      ]
+    },
+    {
+      "jour": 9,
+      "symbole": "⛴️",
+      "titre": "Cap sur les Îles du Nord",
+      "legende": "Aujourd'hui, l'aventure vous mène vers les îles du Nord, un archipel plus sauvage et moins fréquenté. Le trajet en voiture et à travers les tunnels sous-marins est une expérience en soi. Klaksvík, la deuxième ville des Féroé, sera votre porte d'entrée vers ces îles majestueuses, offrant des paysages dramatiques et une atmosphère authentique.",
+      "lieu": "Klaksvík, Borðoy",
+      "activites": [
+        "🚗 <strong>Trajet vers Klaksvík via les tunnels sous-marins</strong>: Traversez les tunnels impressionnants qui relient Eysturoy aux îles du Nord, une prouesse d'ingénierie offrant un accès facile à cette région reculée.",
+        "⛪ <strong>Visite de l'église de Klaksvík (Christianskirkjan)</strong>: Admirez cette église moderne et unique, inspirée des maisons vikings, avec son toit en forme de coque de bateau et son baptistère en granit vieux de 4000 ans.",
+        "🚶‍♀️ <strong>Promenade dans le port de Klaksvík</strong>: Observez l'activité des pêcheurs et des bateaux dans le deuxième plus grand port des Féroé, un centre important pour l'industrie de la pêche."
+      ],
+      "illustration": "jour9.jpg",
+      "encarts": [
+        {
+          "symbole": "💰",
+          "titre": "Péage des tunnels",
+          "texte": "Les tunnels sous-marins sont payants. Le coût est généralement inclus dans votre location de voiture ou facturé après."
+        },
+        {
+          "symbole": "🏨",
+          "titre": "Hébergement",
+          "texte": "Klaksvík est une bonne base pour explorer les îles du Nord, avec plusieurs options d'hébergement et de restauration."
+        }
+      ]
+    },
+    {
+      "jour": 10,
+      "symbole": "⛰️",
+      "titre": "Viðareiði et le Cap Enniberg",
+      "legende": "Aventurez-vous sur l'île de Viðoy, la plus septentrionale des Féroé, pour découvrir le village de Viðareiði et les vues spectaculaires sur le Cap Enniberg. La randonnée vers ce cap offre des panoramas vertigineux sur l'océan et les falaises, une expérience inoubliable pour les amateurs de nature sauvage et de grands espaces.",
+      "lieu": "Viðareiði, Viðoy",
+      "activites": [
+        "🚗 <strong>Route vers Viðareiði</strong>: Conduisez jusqu'au village le plus septentrional des Féroé, un lieu d'une beauté saisissante, encadré par des montagnes imposantes.",
+        "🥾 <strong>Randonnée vers le Cap Enniberg</strong>: Empruntez le sentier menant au Cap Enniberg, la deuxième plus haute falaise maritime d'Europe (754m). La vue est absolument époustouflante, mais la randonnée est exigeante et nécessite de bonnes conditions physiques et météorologiques.",
+        "⛪ <strong>Visite de l'église de Viðareiði</strong>: Admirez cette charmante église blanche, située dans un cadre spectaculaire, et imprégnez-vous de la sérénité du village."
+      ],
+      "illustration": "jour10.jpg",
+      "encarts": [
+        {
+          "symbole": "⚠️",
+          "titre": "Sécurité en randonnée",
+          "texte": "La randonnée vers Enniberg est difficile et potentiellement dangereuse par mauvais temps. Soyez prudent et informez-vous localement."
+        },
+        {
+          "symbole": "🍽️",
+          "titre": "Repas à Viðareiði",
+          "texte": "Le restaurant du Hotel Norð propose des plats locaux et une vue magnifique sur le fjord."
+        }
+      ]
+    },
+    {
+      "jour": 11,
+      "symbole": "🏞️",
+      "titre": "Kunoy et Kalsoy, l'Île de James Bond",
+      "legende": "Explorez l'île de Kunoy, accessible par un pont, et si le temps le permet, prenez le ferry pour Kalsoy, surnommée \"l'île de la flûte\" en raison de ses nombreux tunnels. Kalsoy est devenue célèbre pour son phare de Kallur et son rôle dans le film de James Bond. C'est une journée d'exploration de paysages dramatiques et de villages isolés.",
+      "lieu": "Kunoy et Kalsoy",
+      "activites": [
+        "🚗 <strong>Exploration de Kunoy</strong>: Traversez le pont vers Kunoy et découvrez ses villages pittoresques, ses forêts (rares aux Féroé) et ses vues sur les îles environnantes.",
+        "⛴️ <strong>Excursion à Kalsoy (si possible)</strong>: Prenez le ferry depuis Klaksvík pour Kalsoy. Une fois sur l'île, conduisez jusqu'au village de Trøllanes et marchez jusqu'au phare de Kallur pour des vues emblématiques, notamment le site de la mort de James Bond.",
+        "🚶‍♀️ <strong>Randonnée vers le phare de Kallur</strong>: La marche vers le phare est relativement facile et offre des panoramas spectaculaires sur les falaises et l'océan. C'est un lieu emblématique des Féroé."
+      ],
+      "illustration": "jour11.jpg",
+      "encarts": [
+        {
+          "symbole": "⛴️",
+          "titre": "Ferry pour Kalsoy",
+          "texte": "Le ferry pour Kalsoy est petit et très populaire. Arrivez tôt pour garantir votre place, surtout si vous avez une voiture."
+        },
+        {
+          "symbole": "🚶‍♂️",
+          "titre": "Tunnels de Kalsoy",
+          "texte": "Les tunnels de Kalsoy sont étroits et non éclairés. Conduisez prudemment et utilisez vos phares."
+        }
+      ]
+    },
+    {
+      "jour": 12,
+      "symbole": "✈️",
+      "titre": "Retour à Vágar et Merveilles de Gásadalur",
+      "legende": "Quittez les îles du Nord pour retourner à Vágar, l'île de l'aéroport, mais aussi celle de certains des paysages les plus emblématiques des Féroé. Gásadalur et sa cascade de Múlafossur sont une image de carte postale, un incontournable de tout voyage. Prenez le temps d'admirer cette beauté naturelle et de vous imprégner de la sérénité du lieu.",
+      "lieu": "Gásadalur, Vágar",
+      "activites": [
+        "🚗 <strong>Trajet retour vers Vágar</strong>: Reprenez la route vers l'île de Vágar, en traversant à nouveau les tunnels sous-marins et les paysages familiers.",
+        "🏡 <strong>Visite de Gásadalur et de la cascade de Múlafossur</strong>: Découvrez le village isolé de Gásadalur, célèbre pour sa cascade emblématique qui se jette directement dans l'océan. C'est l'un des sites les plus photographiés des Féroé et un spectacle à couper le souffle.",
+        "🚶‍♀️ <strong>Promenade dans Bøur</strong>: Explorez le charmant village de Bøur, avec ses maisons aux toits de tourbe et ses vues imprenables sur les îles de Mykines et Tindhólmur."
+      ],
+      "illustration": "jour12.jpg",
+      "encarts": [
+        {
+          "symbole": "📸",
+          "titre": "Meilleur moment",
+          "texte": "La cascade de Múlafossur est magnifique à tout moment, mais le matin ou en fin d'après-midi offre une lumière douce pour les photos."
+        },
+        {
+          "symbole": "💡",
+          "titre": "Accès",
+          "texte": "Gásadalur est désormais accessible par un tunnel, rendant la visite beaucoup plus facile qu'auparavant."
+        }
+      ]
+    },
+    {
+      "jour": 13,
+      "symbole": "🥾",
+      "titre": "Le Lac Suspendu et Falaises Dramatiques",
+      "legende": "Aujourd'hui est dédié à l'une des randonnées les plus emblématiques des Féroé : celle menant au lac Sørvágsvatn/Leitisvatn, qui semble suspendu au-dessus de l'océan. Les vues sur les falaises de Trælanípa sont spectaculaires et offrent des perspectives uniques sur la géologie de l'île. C'est une journée de marche et de paysages grandioses.",
+      "lieu": "Sørvágsvatn/Leitisvatn, Vágar",
+      "activites": [
+        "🥾 <strong>Randonnée au lac Sørvágsvatn/Leitisvatn et Trælanípa</strong>: Partez pour une randonnée modérée jusqu'au point de vue où le lac semble flotter au-dessus de l'océan. Les falaises de Trælanípa et Bøsdalafossur (la cascade du lac) offrent des panoramas inoubliables.",
+        "🚶‍♀️ <strong>Exploration de Sørvágur</strong>: Visitez le village de Sørvágur, le plus grand de Vágar, et son port animé. C'est de là que partent les ferries pour Mykines."
+      ],
+      "illustration": "jour13.jpg",
+      "encarts": [
+        {
+          "symbole": "💰",
+          "titre": "Frais de randonnée",
+          "texte": "L'accès à la randonnée de Sørvágsvatn est payant pour l'entretien des sentiers. Prévoyez de payer sur place."
+        },
+        {
+          "symbole": "💧",
+          "titre": "Eau et snacks",
+          "texte": "Emportez suffisamment d'eau et de quoi grignoter pour cette randonnée de plusieurs heures."
+        }
+      ]
+    },
+    {
+      "jour": 14,
+      "symbole": "🐦",
+      "titre": "Mykines, le Royaume des Macareux",
+      "legende": "Embarquez pour une excursion inoubliable vers Mykines, l'île la plus occidentale des Féroé, célèbre pour ses colonies de macareux et de fous de Bassan. C'est une expérience unique de se retrouver au milieu de milliers d'oiseaux marins dans un paysage d'une beauté sauvage. Une journée magique pour les amoureux de la nature et de la faune.",
+      "lieu": "Mykines",
+      "activites": [
+        "⛴️ <strong>Excursion en ferry vers Mykines</strong>: Prenez le ferry depuis Sørvágur pour Mykines. Le trajet offre des vues spectaculaires sur les falaises et les îles environnantes.",
+        "🚶‍♂️ <strong>Randonnée vers le phare de Mykinesholmur</strong>: Marchez le long du sentier qui traverse l'île, passant par le village de Mykines et le pont au-dessus de la gorge, jusqu'au phare. Vous serez entouré de milliers de macareux et d'autres oiseaux marins.",
+        "🐦 <strong>Observation des macareux</strong>: Profitez de l'opportunité unique d'observer les macareux de très près, surtout en été. C'est une expérience inoubliable pour les ornithologues amateurs et les amoureux de la nature."
+      ],
+      "illustration": "jour14.jpg",
+      "encarts": [
+        {
+          "symbole": "⚠️",
+          "titre": "Réservation",
+          "texte": "Réservez le ferry et le guide pour Mykines bien à l'avance, car les places sont limitées et l'accès est réglementé."
+        },
+        {
+          "symbole": "🌦️",
+          "titre": "Annulation",
+          "texte": "Les excursions à Mykines peuvent être annulées en cas de mauvais temps. Prévoyez une journée de rechange si possible."
+        }
+      ]
+    },
+    {
+      "jour": 15,
+      "symbole": "⛴️",
+      "titre": "Sandoy, l'Île des Contes",
+      "legende": "Prenez le ferry pour Sandoy, une île plus plate et plus verte, souvent surnommée \"l'île des contes\" pour son atmosphère paisible et ses légendes. Moins fréquentée par les touristes, elle offre une immersion authentique dans la vie féringienne. Explorez ses villages colorés et ses paysages doux, loin de l'agitation.",
+      "lieu": "Sandoy",
+      "activites": [
+        "⛴️ <strong>Traversée en ferry vers Sandoy</strong>: Prenez le ferry depuis Gamlarætt (Streymoy) pour Sandoy. Le trajet est court et offre de belles vues sur les îles.",
+        "🏡 <strong>Exploration de Sandur</strong>: Visitez le village principal de Sandur, avec son église en bois, son musée d'art et ses plages de sable, rares aux Féroé.",
+        "🚶‍♀️ <strong>Promenade autour du lac Sandsvatn</strong>: Profitez d'une balade paisible autour du plus grand lac de Sandoy, un endroit idéal pour observer les oiseaux et se détendre."
+      ],
+      "illustration": "jour15.jpg",
+      "encarts": [
+        {
+          "symbole": "💡",
+          "titre": "Nouveau tunnel",
+          "texte": "Un tunnel sous-marin reliant Streymoy à Sandoy est en construction et devrait ouvrir prochainement, facilitant l'accès."
+        },
+        {
+          "symbole": "🐑",
+          "titre": "Tranquillité",
+          "texte": "Sandoy est l'une des îles les plus calmes et authentiques. Profitez de cette sérénité."
+        }
+      ]
+    },
+    {
+      "jour": 16,
+      "symbole": "🏞️",
+      "titre": "Villages et Falaises de Sandoy",
+      "legende": "Continuez votre exploration de Sandoy, en découvrant ses villages pittoresques et ses falaises côtières. De Dalur à Húsavík, chaque lieu a son propre charme et son histoire. C'est une journée pour se perdre dans la beauté simple et la tranquillité de cette île, loin des sentiers battus.",
+      "lieu": "Dalur et Húsavík, Sandoy",
+      "activites": [
+        "🏡 <strong>Visite de Dalur</strong>: Découvrez ce petit village isolé, niché dans une vallée verdoyante, avec son église traditionnelle et son atmosphère paisible.",
+        "🚶‍♂️ <strong>Randonnée côtière près de Skarvanes</strong>: Profitez d'une randonnée facile le long des falaises près de Skarvanes, offrant des vues spectaculaires sur l'océan et les îles environnantes.",
+        "⛪ <strong>Exploration de Húsavík</strong>: Visitez les ruines de l'ancienne ferme de Húsavík, qui aurait appartenu à une riche dame viking, et son église moderne."
+      ],
+      "illustration": "jour16.jpg",
+      "encarts": [
+        {
+          "symbole": "🗺️",
+          "titre": "Orientation",
+          "texte": "Les routes de Sandoy sont bien indiquées, mais une carte peut être utile pour les petits chemins."
+        },
+        {
+          "symbole": "📸",
+          "titre": "Paysages",
+          "texte": "Les paysages de Sandoy sont plus doux que ceux des îles du nord, mais tout aussi photogéniques."
+        }
+      ]
+    },
+    {
+      "jour": 17,
+      "symbole": "⛴️",
+      "titre": "Skúvoy, l'Île de la Légende",
+      "legende": "Embarquez pour une excursion vers Skúvoy, une petite île riche en histoire et en légendes, notamment celle de Sigmundur Brestisson. C'est une île isolée, réputée pour ses falaises abruptes et ses colonies d'oiseaux marins. Une journée pour se connecter avec le passé viking et la nature sauvage des Féroé.",
+      "lieu": "Skúvoy",
+      "activites": [
+        "⛴️ <strong>Excursion en ferry vers Skúvoy</strong>: Prenez le petit ferry depuis Sandoy pour Skúvoy. L'île est petite et peut être explorée à pied.",
+        "🚶‍♂️ <strong>Découverte du village de Skúvoy</strong>: Explorez le seul village de l'île, visitez son église et découvrez les sites liés à la légende de Sigmundur Brestisson, un héros viking.",
+        "🐦 <strong>Observation des oiseaux marins</strong>: Skúvoy est un important site de nidification pour de nombreux oiseaux marins. Profitez des falaises pour les observer."
+      ],
+      "illustration": "jour17.jpg",
+      "encarts": [
+        {
+          "symbole": "⚠️",
+          "titre": "Ferry",
+          "texte": "Le ferry pour Skúvoy est très petit et dépend des conditions météorologiques. Vérifiez les horaires et la météo avant de partir."
+        },
+        {
+          "symbole": "🥾",
+          "titre": "Exploration",
+          "texte": "L'île est petite et peut être explorée à pied. Prévoyez de bonnes chaussures."
+        }
+      ]
+    },
+    {
+      "jour": 18,
+      "symbole": "🛍️",
+      "titre": "Retour à Tórshavn et Shopping",
+      "legende": "Après avoir exploré les îles plus reculées, retournez à Tórshavn pour profiter de l'ambiance de la capitale. C'est l'occasion de faire du shopping, de trouver des souvenirs uniques et de savourer un bon repas. Prenez le temps de vous détendre et de vous remémorer les merveilles de votre voyage.",
+      "lieu": "Tórshavn, Streymoy",
+      "activites": [
+        "🚗 <strong>Retour à Tórshavn</strong>: Reprenez le ferry depuis Sandoy et conduisez jusqu'à Tórshavn pour vous installer pour les dernières nuits.",
+        "🛍️ <strong>Shopping à Tórshavn</strong>: Explorez les boutiques de la capitale pour trouver des souvenirs uniques, comme des pulls en laine féringienne (ull), des objets d'artisanat local ou des livres sur les Féroé.",
+        "🍽️ <strong>Dîner dans un restaurant local</strong>: Profitez d'un dernier dîner dans l'un des excellents restaurants de Tórshavn, dégustant des produits frais de la mer ou des spécialités locales."
+      ],
+      "illustration": "jour18.jpg",
+      "encarts": [
+        {
+          "symbole": "🎁",
+          "titre": "Souvenirs",
+          "texte": "Les pulls en laine féringienne sont de haute qualité et un excellent souvenir. Visitez Guðrun & Guðrun pour des designs modernes."
+        },
+        {
+          "symbole": "💡",
+          "titre": "Vie nocturne",
+          "texte": "Tórshavn offre quelques bars et pubs pour profiter d'une soirée animée."
+        }
+      ]
+    },
+    {
+      "jour": 19,
+      "symbole": "🌅",
+      "titre": "Dernières Explorations et Détente",
+      "legende": "Profitez de cette dernière journée complète pour revisiter un lieu coup de cœur ou découvrir un dernier secret des Féroé. Que ce soit une courte randonnée, une visite de musée ou simplement un moment de détente, cette journée est l'occasion de savourer les derniers instants de votre aventure. Préparez-vous doucement au départ, le cœur rempli de souvenirs.",
+      "lieu": "Tórshavn et environs, Streymoy",
+      "activites": [
+        "🚶‍♂️ <strong>Randonnée facile à Svartafoss</strong>: Faites une courte randonnée jusqu'à la cascade de Svartafoss, près de Velbastaður, pour une dernière immersion dans la nature féringienne.",
+        "🖼️ <strong>Visite du Musée d'Art des Féroé (Listasavn Føroya)</strong>: Découvrez l'art féringien, des paysages traditionnels aux œuvres contemporaines, offrant une perspective unique sur la culture locale.",
+        "☕ <strong>Détente dans un café de Tórshavn</strong>: Profitez d'un moment de calme dans un café local, savourant une boisson chaude et repensant à toutes les merveilles découvertes."
+      ],
+      "illustration": "jour19.jpg",
+      "encarts": [
+        {
+          "symbole": "📦",
+          "titre": "Préparation",
+          "texte": "Commencez à préparer vos bagages et à organiser vos affaires pour le départ de demain."
+        },
+        {
+          "symbole": "⛽",
+          "titre": "Essence",
+          "texte": "Faites le plein de la voiture avant de la rendre à l'aéroport."
+        }
+      ]
+    },
+    {
+      "jour": 20,
+      "symbole": "🛫",
+      "titre": "Départ des Îles Féroé",
+      "legende": "C'est le moment de quitter les Îles Féroé, des souvenirs plein la tête et des images de paysages grandioses gravées dans l'esprit. Le trajet vers l'aéroport de Vágar sera l'occasion de jeter un dernier regard sur ces îles mystiques. Votre aventure se termine ici, mais la magie des Féroé restera avec vous.",
+      "lieu": "Vágar",
+      "activites": [
+        "🚗 <strong>Trajet vers l'aéroport de Vágar (FAE)</strong>: Conduisez jusqu'à l'aéroport, en profitant une dernière fois des paysages côtiers de Vágar.",
+        "✈️ <strong>Restitution de la voiture de location et enregistrement</strong>: Rendez votre voiture de location et procédez à l'enregistrement pour votre vol de retour.",
+        "🛫 <strong>Vol retour vers Hartford, USA</strong>: Embarquez pour votre vol, emportant avec vous les souvenirs inoubliables de votre voyage aux Îles Féroé."
+      ],
+      "illustration": "jour20.jpg",
+      "encarts": [
+        {
+          "symbole": "⏰",
+          "titre": "Heure d'arrivée",
+          "texte": "Arrivez à l'aéroport au moins 2 heures avant votre vol pour avoir le temps de rendre la voiture et de passer les contrôles."
+        },
+        {
+          "symbole": "💡",
+          "titre": "Dernier regard",
+          "texte": "La vue depuis l'avion au décollage est souvent spectaculaire. Gardez votre appareil photo à portée de main."
+        }
+      ]
+    }
+  ],
+  "detail_budget": [
+    {
+      "titre": "Budget vol:",
+      "legende": "1200€/pers (Vol aller-retour Hartford-Vágar, classe économique avec escales)",
+      "symbole": "🛬"
+    },
+    {
+      "titre": "Budget transports:",
+      "legende": "950€/pers (Location voiture compacte 19 jours + essence, basé sur 2 pers. partageant)",
+      "symbole": "🚆"
+    },
+    {
+      "titre": "Budget repas:",
+      "legende": "1600€/pers (Moyenne 80€/jour, mix restaurants et auto-préparation)",
+      "symbole": "🥗"
+    },
+    {
+      "titre": "Budget logement:",
+      "legende": "2000€/pers (Hôtels 3 étoiles ou équivalent guesthouse/B&B, 19 nuits)",
+      "symbole": "🛏️"
+    },
+    {
+      "titre": "Budget activités:",
+      "legende": "400€/pers (Excursions bateau Vestmanna, Mykines, musées, frais de randonnée)",
+      "symbole": "🎭"
+    }
+  ],
+  "periodes_ideales": [
+    {
+      "titre": "Les périodes idéales pour ce séjour sont les mois de juin, juillet et août.",
+      "symbole": "☀️"
+    },
+    {
+      "titre": "Ces mois offrent les températures les plus douces, les jours les plus longs et les meilleures chances d'observer les oiseaux marins.",
+      "symbole": "🐦"
+    }
+  ],
+  "infos_pratiques": [
+    {
+      "titre": "Les Îles Féroé sont un archipel autonome du Royaume du Danemark, situé entre l'Écosse et l'Islande.",
+      "symbole": "🇫🇴"
+    },
+    {
+      "titre": "La population est d'environ 54 000 habitants, avec une forte culture maritime et une langue unique, le féroïen.",
+      "symbole": "👥"
+    },
+    {
+      "titre": "Le temps est très changeant : prévoyez des couches de vêtements, un imperméable et des chaussures robustes, même en été.",
+      "symbole": "🌦️"
+    },
+    {
+      "titre": "Une curiosité : il y a plus de moutons que d'habitants sur les îles, d'où le nom 'Føroyar' signifiant 'Îles aux Moutons'.",
+      "symbole": "🐑"
+    }
+  ],
+  "liens_utiles": [
+    {
+      "legende": "Site officiel du tourisme des Féroé",
+      "titre": "Visit Faroe Islands",
+      "url": "https://visitfaroeislands.com/",
+      "symbole": "📘"
+    },
+    {
+      "legende": "Prévisions météo locales fiables",
+      "titre": "Yr.no (Météo Féroé)",
+      "url": "https://www.yr.no/en/forecast/daily-table/2-2618795/Faroe%20Islands/T%C3%B3rshavn",
+      "symbole": "🌤️"
+    },
+    {
+      "legende": "Informations sur les ferries inter-îles",
+      "titre": "SSL (Ferries Féroé)",
+      "url": "https://www.ssl.fo/",
+      "symbole": "⛴️"
+    },
+    {
+      "legende": "Réservation d'excursions à Mykines",
+      "titre": "Mykines.fo",
+      "url": "https://mykines.fo/",
+      "symbole": "🐦"
+    }
+  ]
+}
