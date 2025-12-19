@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carte du voyage - Iles feroe</title>
+  <style>
+    body { margin: 0; padding: 0; font-family: Arial, sans-serif; }
+    #map { height: 100vh; width: 100%; }
+    .info-window { max-width: 250px; font-family: Arial, sans-serif; }
+    .info-window img { width: 100%; height: auto; border-radius: 8px; margin-bottom: 10px; }
+    .info-window h3 { margin: 0 0 5px 0; font-size: 16px; color: #333; }
+    .info-window p { margin: 5px 0; font-size: 14px; color: #666; }
+    .info-window a { color: #1a73e8; text-decoration: none; }
+    .info-window a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  
+  <script>
+    function initMap() {
+      const center = { lat: 62.112720721052625, lng: -6.955925105263158 };
+      const map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 10,
+        center: center
+      });
+      
+      const markers = [{"lat":62.01072479999999,"lng":-6.7740852,"name":"Tórshavn, Streymoy","jour":1,"titre":"Arrivée et Premiers Pas à Tórshavn","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=62.01072479999999,-6.7740852&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=62.01072479999999,-6.7740852","aiImageUrl":"jour1.jpg"},{"lat":61.95381169999999,"lng":-6.7983032,"name":"Tórshavn et Kirkjubøur, Streymoy","jour":2,"titre":"Immersion Culturelle et Historique","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=61.95381169999999,-6.7983032&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=61.95381169999999,-6.7983032","aiImageUrl":"jour2.jpg"},{"lat":62.2891768,"lng":-7.147859200000001,"name":"Saksun et Tjørnuvík, Streymoy","jour":3,"titre":"Beauté Sauvage du Nord de Streymoy","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=62.2891768,-7.147859200000001&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=62.2891768,-7.147859200000001","aiImageUrl":"jour3.jpg"},{"lat":62.16316999999999,"lng":-7.165286,"name":"Vestmanna, Streymoy","jour":4,"titre":"Falaises et Oiseaux Marins","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=62.16316999999999,-7.165286&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=62.16316999999999,-7.165286","aiImageUrl":"jour4.jpg"},{"lat":62.12206699999999,"lng":-7.056537,"name":"Mont Sornfelli et Kvivik, Streymoy","jour":5,"titre":"Randonnée et Panoramas Époustouflants","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=62.12206699999999,-7.056537&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=62.12206699999999,-7.056537","aiImageUrl":"jour5.jpg"},{"lat":62.3249089,"lng":-6.945312800000001,"name":"Gjógv, Eysturoy","jour":6,"titre":"Passage à Eysturoy et Charme de Gjógv","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=62.3249089,-6.945312800000001&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=62.3249089,-6.945312800000001","aiImageUrl":"jour6.jpg"},{"lat":62.2968255,"lng":-7.0130968,"name":"Slættaratindur et Eiði, Eysturoy","jour":7,"titre":"Ascension et Vues Panoramiques","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=62.2968255,-7.0130968&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=62.2968255,-7.0130968","aiImageUrl":"jour7.jpg"},{"lat":62.3249089,"lng":-6.945312800000001,"name":"Funningur et Gjogv, Eysturoy","jour":8,"titre":"Funningur et Côte Sauvage","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=62.3249089,-6.945312800000001&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=62.3249089,-6.945312800000001","aiImageUrl":"jour8.jpg"},{"lat":62.2255316,"lng":-6.583653099999999,"name":"Klaksvík, Borðoy","jour":9,"titre":"Cap sur les Îles du Nord","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=62.2255316,-6.583653099999999&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=62.2255316,-6.583653099999999","aiImageUrl":"jour9.jpg"},{"lat":62.3603219,"lng":-6.534987699999999,"name":"Viðareiði, Viðoy","jour":10,"titre":"Viðareiði et le Cap Enniberg","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=62.3603219,-6.534987699999999&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=62.3603219,-6.534987699999999","aiImageUrl":"jour10.jpg"},{"lat":62.29139289999999,"lng":-6.667564,"name":"Kunoy et Kalsoy","jour":11,"titre":"Kunoy et Kalsoy, l'Île de James Bond","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=62.29139289999999,-6.667564&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=62.29139289999999,-6.667564","aiImageUrl":"jour11.jpg"},{"lat":62.1105895,"lng":-7.4386826,"name":"Gásadalur, Vágar","jour":12,"titre":"Retour à Vágar et Merveilles de Gásadalur","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=62.1105895,-7.4386826&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=62.1105895,-7.4386826","aiImageUrl":"jour12.jpg"},{"lat":62.04849050000001,"lng":-7.235695,"name":"Sørvágsvatn/Leitisvatn, Vágar","jour":13,"titre":"Le Lac Suspendu et Falaises Dramatiques","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=62.04849050000001,-7.235695&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=62.04849050000001,-7.235695","aiImageUrl":"jour13.jpg"},{"lat":62.1070829,"lng":-7.597474499999999,"name":"Mykines","jour":14,"titre":"Mykines, le Royaume des Macareux","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=62.1070829,-7.597474499999999&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=62.1070829,-7.597474499999999","aiImageUrl":"jour14.jpg"},{"lat":61.84986139999999,"lng":-6.7745237,"name":"Sandoy","jour":15,"titre":"Sandoy, l'Île des Contes","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=61.84986139999999,-6.7745237&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=61.84986139999999,-6.7745237","aiImageUrl":"jour15.jpg"},{"lat":61.78266189999999,"lng":-6.6766887,"name":"Dalur et Húsavík, Sandoy","jour":16,"titre":"Villages et Falaises de Sandoy","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=61.78266189999999,-6.6766887&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=61.78266189999999,-6.6766887","aiImageUrl":"jour16.jpg"},{"lat":61.77124180000001,"lng":-6.8189293,"name":"Skúvoy","jour":17,"titre":"Skúvoy, l'Île de la Légende","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=61.77124180000001,-6.8189293&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=61.77124180000001,-6.8189293","aiImageUrl":"jour17.jpg"},{"lat":62.01072479999999,"lng":-6.7740852,"name":"Tórshavn et environs, Streymoy","jour":19,"titre":"Dernières Explorations et Détente","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=62.01072479999999,-6.7740852&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=62.01072479999999,-6.7740852","aiImageUrl":"jour19.jpg"},{"lat":62.09820089999999,"lng":-7.2145002,"name":"Vágar","jour":20,"titre":"Départ des Îles Féroé","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=62.09820089999999,-7.2145002&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=62.09820089999999,-7.2145002","aiImageUrl":"jour20.jpg"}];
+      
+      markers.forEach((markerData) => {
+        const marker = new google.maps.Marker({
+          position: { lat: markerData.lat, lng: markerData.lng },
+          map: map,
+          title: markerData.name,
+          label: String(markerData.jour)
+        });
+        
+        const contentString = `
+          <div class="info-window">
+            <img src="${markerData.streetViewUrl}" alt="Street View de ${markerData.name}" />
+            <h3>Jour ${markerData.jour}</h3>
+            <p><strong>${markerData.name}</strong></p>
+            <p><a href="${markerData.streetViewLinkUrl}" target="_blank" rel="noopener noreferrer"><strong>${markerData.titre}</strong></a></p>
+          </div>
+        `;
+        
+        const infoWindow = new google.maps.InfoWindow({
+          content: contentString
+        });
+        
+        marker.addListener('click', () => {
+          infoWindow.open(map, marker);
+        });
+      });
+    }
+  </script>
+  
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI&callback=initMap">
+  </script>
+</body>
+</html>
